@@ -1,2 +1,4 @@
 //to match row heights
-$("#row2").height($("#row1").height());
+$(document).ready(function(){
+	$("#row2").height($("#row1").height());
+});
