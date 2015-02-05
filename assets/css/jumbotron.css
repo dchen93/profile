@@ -29,14 +29,11 @@ html {
 .project {
 	position:relative;
 	min-width:200px;
-	min-height:200px;
+	min-height:260px;
 }
 
 .bottomRight {
 	position: absolute;
 	bottom: 1.5em;
 	right: 3em;
-}
-
-.row{
 }
