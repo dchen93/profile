@@ -27,13 +27,14 @@ html {
 
 .project {
 	position:relative;
-	min-width:200px;
+	min-width:100px;
 	min-height:340px;
 }
 
 .matchingHeight {
 	position:relative;
 	min-height: 340px;
+	display:inline-block;
 }
 
 .bottomRight {
