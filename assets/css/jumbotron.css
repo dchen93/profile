@@ -28,7 +28,8 @@ html {
 
 .project {
 	position:relative;
-
+	min-width:200px;
+	min-height:200px;
 }
 
 .bottomRight {
@@ -38,7 +39,4 @@ html {
 }
 
 .row{
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
 }
