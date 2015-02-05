@@ -15,6 +15,30 @@ html {
 	box-shadow: 8px 8px 16px -3px rgba(0,0,0,0.45);
 }
 
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+.preview {
+	float:left;
+	margin-top: -.5em;
+	width:40%;
+}
+
+.preview-img {
+	float:left;
+	padding-bottom: .5em;
+}
+
+.project {
+	position:relative;
+
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 1.5em;
+	right: 3em;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
