@@ -16,24 +16,28 @@ html {
 }
 
 .preview {
-	float:left;
-	margin-top: -.5em;
-	width:40%;
+	/*float:left;*/
+	margin-top: 3.5em;
 }
 
 .preview-img {
-	float:left;
+	/*float:left;*/
 	padding-bottom: .5em;
 }
 
 .project {
 	position:relative;
 	min-width:200px;
-	min-height:260px;
+	min-height:340px;
+}
+
+.matchingHeight {
+	position:relative;
+	min-height: 340px;
 }
 
 .bottomRight {
 	position: absolute;
+	right: 1em;
 	bottom: 1.5em;
-	right: 3em;
 }
