@@ -37,3 +37,10 @@ html {
 	bottom: 1.5em;
 	right: 3em;
 }
+
+@media screen and (max-width: 1007px){
+	.project {
+		float: left; 
+		width: 100% 
+	}
+}
