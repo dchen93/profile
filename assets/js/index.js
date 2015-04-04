@@ -8,37 +8,34 @@ var navigationFn = {
 
 $(document).ready(function(){
 	setTimeout(function(){
-		$('#main').fadeIn();}, 600);
-
+		$('#android1').fadeIn();}, 400);
 	setTimeout(function(){
-		$('#android1').fadeIn();}, 1200);
+		$('#row1').fadeIn();}, 500);
 	setTimeout(function(){
-		$('#row1').fadeIn();}, 1300);
+		$('#android3').fadeIn();}, 600);
 	setTimeout(function(){
-		$('#android3').fadeIn();}, 1400);
-	setTimeout(function(){
-		$('#android').show();}, 1600);
+		$('#android').show();}, 800);
 
 	setTimeout(function(){
 		$('#row2a').fadeIn();
 		$("#row2a").height($("#row1").height());
-	}, 1900);
+	}, 1100);
 	setTimeout(function(){
 		$('#row2b').fadeIn();
 		$("#row2b").height($("#row1").height());
-	}, 2000);
+	}, 1200);
 	setTimeout(function(){
-		$('#web').show();}, 2200);
+		$('#web').show();}, 1400);
 
 	setTimeout(function(){
 		$('#row3a').fadeIn();
 		$("#row3a").height($("#row1").height());
-	}, 2500);
+	}, 1600);
 	setTimeout(function(){
-		$('#misc').show();}, 2700);
+		$('#misc').show();}, 1800);
 
 	setTimeout(function(){
-		$('#footer').show();}, 2700);
+		$('#footer').fadeIn();}, 1800);
 
 	$("#hri").click(function(){
 		navigationFn.goToSection('#row2');

@@ -28,7 +28,7 @@
   </head>
 
   <body>
-
+    <noscript> Please Enable JavaScript </noscript>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -57,8 +57,7 @@
                 <li><a href="http://rcaphone.herokuapp.com/" target="_blank">RCA Phone</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Miscellaneous</li>
-                <li><a href="https://github.com/dchen93/" target="_blank">Course Registration</a></li>
-                <li><a href="https://github.com/dchen93/" target="_blank">Automatic Query Completion</a></li>
+                <li><a href="https://github.com/dchen93/" target="_blank">Coursework</a></li>
               </ul>
             </li>
 
@@ -88,7 +87,7 @@
           <div class="col-md-2">
             <a href="../index.html"><img id="face-img" class="featurette-image img-responsive" src="../media/face.jpg" alt="Image of Daniel Chen"></a>
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10" id="name" style="display: none;">
             <h2 class="featurette-heading"><a href="../index.html" style="text-decoration: none; color:black;"> Daniel Chen </a>&nbsp;<span class="text-muted" style="font-size:22px;">|&nbsp; Android Weather</span></h2>
             <p class="lead">Material Design <br>Android API Experience <br> <br> </p>
           </div>
@@ -99,7 +98,7 @@
     <div class="container">
       <!-- Example row of columns -->
 
-      <div class="row featurette">
+      <div class="row featurette" id="name1" style="display: none;">
         <div class="col-md-3">
           <img class="preview-img img-responsive" src="../media/nexus5.jpg" alt="Android Screenshot">
         </div>
@@ -109,13 +108,13 @@
         </div>
       </div>
 
-      <hr>
+      <hr id="name1h" style="display: none;">
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
-      <footer>
+      <footer id="footer" style="display: none;">
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>Daniel Chen 2015</p>
       </footer>
@@ -130,5 +129,6 @@
     <script src="../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../assets/js/weather.js"></script>
   </body>
 </html>
